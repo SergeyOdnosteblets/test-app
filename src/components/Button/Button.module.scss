@@ -1,0 +1,20 @@
+  .button {
+    border-radius: 12px;
+    opacity: 0.3;
+    background: var(--primary-100, #5fcb39);
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+  }
+
+  .button_active {
+    opacity: 0.8;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }

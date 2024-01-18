@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+
+   .arrow{
+      width: 30px;
+      height: 30px;
+   }
+
+  .logo{
+   padding: 4px 8px;
+   border-radius: 6px;
+   background: linear-gradient(0deg, #F4F4F4 0%, #F4F4F4 100%);
+   margin: 20px;
+  }
+
+  .title {
+    color: #374234;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.45px;
+  }
+}
